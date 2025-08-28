@@ -1,0 +1,7 @@
+@echo off
+echo Cleaning junk files...
+del /s /q %temp%\*
+del /s /q C:\Windows\Temp\*
+cleanmgr /sagerun:1
+echo Done! Your laptop is faster now.
+pause
